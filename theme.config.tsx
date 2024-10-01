@@ -1,8 +1,9 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import logo from './assets/devcaLogo.jsx'
 
 const config: DocsThemeConfig = {
-  logo: './assets/devcaLogo.svg',
+  logo: <logo />,
   project: {
     link: 'https://devca.io',
   },
